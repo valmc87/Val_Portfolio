@@ -1,0 +1,309 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #fafafa;
+  --white: #ffffff;
+  --text: #333333;
+  --muted: #888888;
+  --border: #e5e5e5;
+  --accent: #6C8EBF;
+  --accent-light: #eef2f8;
+  --max-width: 720px;
+}
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+}
+
+/* ===== Nav ===== */
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(250,250,250,0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+}
+
+.nav-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.nav-brand {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--accent);
+}
+
+/* ===== Layout ===== */
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+section {
+  padding: 3rem 0;
+  border-top: 1px solid var(--border);
+}
+
+section:first-of-type { border-top: none; }
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+/* ===== Hero ===== */
+.hero {
+  padding: 4rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.25rem;
+  border-top: none;
+}
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: var(--accent-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lora', serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.hero h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.hero .tagline {
+  font-size: 1rem;
+  color: var(--muted);
+  max-width: 480px;
+}
+
+/* ===== About ===== */
+.about p {
+  font-size: 1.05rem;
+  color: var(--text);
+  max-width: 600px;
+}
+
+/* ===== Skills ===== */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.skills-list li {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text);
+  background: var(--white);
+}
+
+/* ===== Experience ===== */
+.exp-list { list-style: none; display: flex; flex-direction: column; gap: 1.25rem; }
+
+.exp-item .role { font-weight: 600; font-size: 0.95rem; }
+.exp-item .org  { font-size: 0.9rem; color: var(--text); }
+.exp-item .date { font-size: 0.82rem; color: var(--muted); margin-top: 0.1rem; }
+
+/* ===== Achievements ===== */
+.ach-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.ach-list li {
+  font-size: 0.95rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.ach-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* ===== Fun Facts ===== */
+.fun-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.fun-list li { font-size: 0.95rem; }
+
+/* ===== Social ===== */
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.social-links a:hover { border-bottom-color: var(--accent); }
+
+/* ===== Projects Page ===== */
+.page-hero {
+  padding: 3.5rem 0 2rem;
+  border-top: none;
+}
+
+.page-hero h1 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.page-hero p { color: var(--muted); font-size: 0.95rem; }
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.project-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+  transform: translateY(-2px);
+}
+
+.card-banner {
+  height: 80px;
+}
+
+.card-body { padding: 1.25rem; }
+
+.card-body h3 {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.card-body p {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 0.85rem;
+  line-height: 1.5;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.85rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 3px;
+  background: var(--accent-light);
+  color: var(--accent);
+}
+
+.card-link {
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.card-link:hover { border-bottom-color: var(--accent); }
+
+/* ===== Footer ===== */
+footer {
+  border-top: 1px solid var(--border);
+  text-align: center;
+  padding: 2rem 1.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .hero h1 { font-size: 1.7rem; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .nav-links { gap: 1.25rem; }
+}
