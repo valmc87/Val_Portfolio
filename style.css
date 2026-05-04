@@ -156,6 +156,39 @@ h2 {
   background: var(--white);
 }
 
+/* ===== Tech Stack ===== */
+.techstack-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.techstack-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  min-width: 90px;
+  font-size: 0.78rem;
+  color: var(--text);
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.techstack-item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+  transform: translateY(-2px);
+}
+
+.techstack-item img {
+  display: block;
+}
+
 /* ===== Experience ===== */
 .exp-list { list-style: none; display: flex; flex-direction: column; gap: 1.25rem; }
 
