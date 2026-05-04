@@ -33,25 +33,25 @@ My goal is to integrate data analysis into the Marketing field, in order to make
 - Python (basic)
 - R Programming (basic)
 - Google Analytics
-- Salesforce CRM & Lean Data
+- Salesforce CRM 
+- Lean Data
 
 
 ## Experience
-- **Senior Cloud Architect**, TechNova Solutions, Singapore (Mar 2021 - Present)
-- **Cloud Engineer**, Skybridge Digital, Kuala Lumpur (Jun 2018 - Feb 2021)
-- **Software Developer**, GreenLeaf Systems, Penang (Jan 2016 - May 2018)
-- **Bachelor of Computer Science**, University of Technology, Melbourne (2015)
+- **Business Analyst**, Dentsu - Kuala Lumpur, Malaysia 🇲🇾 (Apr 2024 - Present)
+- **Business Intelligence Analyst/Lead Specialist**, VMware - San Jose, Costa Rica 🇨🇷 (Aug 2022 - Dec 2023)
+- **User Acquisition Specialist**, Zubale, Remote (Mar 2021 - Jul 2022)
+- **Marketing & Data - Internship**, WeFish Fishing App - Murcia, Spain 🇪🇸 (Mar 2020 - Jun 2020)
+- **Sales & Marketing Manager**, Selina Santa Teresa - Puntarenas, Costa Rica 🇨🇷 (Apr 2018 - Jun 2019)
 
 ## Education
+- **Master's Degree, Data Science for Business**, ENAE Business School - Murcia, Spain 🇪🇸 (2019 - 2020)
+- **Business Administration Bachelor, Marketing & Sales**, Universidad Latina de Costa Rica - San Jose, Costa Rica 🇨🇷 (2005 - 2008)
 
-## Achievements
-- AWS Certified Solutions Architect – Professional
-- 3x AWS Certified (Solutions Architect, Developer, SysOps)
-- Built an open-source deployment tool with 1.2K GitHub stars
-- Speaker at 5 regional tech conferences
-- Mentored 40+ junior developers through community programs
-- Led migration of legacy monolith to microservices, reducing costs by 35%
-- Founded a monthly cloud study group with 200+ members
+## Languages
+- Native English Speaker
+- Native Spanish Speaker
+
 
 ## Fun Facts
 - I've visited 15 countries and always check out local tech meetups 🌍
