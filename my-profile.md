@@ -1,29 +1,48 @@
 # My Profile
 
 ## Name
-Maya Chen
+Valeria Morales
 
 ## Tagline
-Cloud Solutions Architect | DevOps Enthusiast | Open-Source Contributor
+Business Intelligence | Data Analysis | Marketing Analytics
 
 ## About Me
-Passionate cloud architect with 8+ years of experience helping startups and enterprises modernize their infrastructure. I love building scalable, resilient systems and sharing knowledge through community workshops and open-source projects. When I'm not architecting cloud solutions, you'll find me mentoring junior developers or experimenting with the latest AI tools.
+With over 10 years of experience in the Marketing field, I have developed a passion for data analysis, visualization, and storytelling. I have applied my skills and knowledge in different industries and regions, from South East Asia to Latin America, working with startups, e-commerce, hospitality and tech businesses. 
 
-## Skills and Passions
-- Cloud Architecture (AWS, Multi-Cloud Strategy)
-- DevOps & CI/CD Pipelines
-- Infrastructure as Code (Terraform, CloudFormation)
-- Serverless & Containers (Lambda, ECS, Kubernetes)
-- AI/ML & Generative AI
-- Technical Writing & Public Speaking
-- Open-Source Development
-- Community Building & Mentorship
+My goal is to integrate data analysis into the Marketing field, in order to make smarter and more data-driven decisions, that will generate better results and pinpoint growth opportunities. I hold a Master's degree in Data Science for Business from ENAE Business School, and I have completed multiple certifications and courses on data visualization, content strategy, and digital marketing. I am fluent in Spanish and English, and I enjoy learning new tools and techniques to improve my work.
 
-## Experience or Education
+## Top Skills
+- Data Analysis
+- Business Intelligence
+- Strategic Planning & Roadmapping
+- Data & Martech Strategy
+- Business Analysis
+- Digital Marketing Strategy
+- Sales & Marketing
+- Stakeholder Management & Cross-functional Collaboration
+- Effective Communication & Presentation
+- Performance Measurement & Reporting Frameworks
+- Lead Scoring & Attribution 
+- Requirements Gathering & Documentation
+
+
+## Tech Stack
+- Advanced Excel
+- Data Visualization (Power BI, Tableu, Looker Studio)
+- SQL (basic)
+- Python (basic)
+- R Programming (basic)
+- Google Analytics
+- Salesforce CRM & Lean Data
+
+
+## Experience
 - **Senior Cloud Architect**, TechNova Solutions, Singapore (Mar 2021 - Present)
 - **Cloud Engineer**, Skybridge Digital, Kuala Lumpur (Jun 2018 - Feb 2021)
 - **Software Developer**, GreenLeaf Systems, Penang (Jan 2016 - May 2018)
 - **Bachelor of Computer Science**, University of Technology, Melbourne (2015)
+
+## Education
 
 ## Achievements
 - AWS Certified Solutions Architect – Professional
@@ -42,8 +61,8 @@ Passionate cloud architect with 8+ years of experience helping startups and ente
 - I can solve a Rubik's cube in under 2 minutes 🧩
 
 ## Social Links
-- LinkedIn: https://linkedin.com/in/mayachen-example
-- GitHub: https://github.com/mayachen-example
+- LinkedIn: https://www.linkedin.com/in/valeriamorales/
+- Instagram: 
 
 ## Profile Photo
 none
