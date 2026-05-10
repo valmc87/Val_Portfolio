@@ -241,7 +241,10 @@ h2 {
   gap: 0.6rem;
 }
 
-.fun-list li { font-size: 0.95rem; }
+.fun-list li {
+  font-size: 0.95rem;
+  color: var(--text);
+}
 
 /* ===== Social ===== */
 .social-links {
