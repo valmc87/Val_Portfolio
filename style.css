@@ -139,6 +139,10 @@ h2 {
   max-width: 600px;
 }
 
+.about p + p {
+  margin-top: 1rem;
+}
+
 /* ===== Skills ===== */
 .skills-list {
   display: flex;
@@ -195,6 +199,18 @@ h2 {
 .exp-item .role { font-weight: 600; font-size: 0.95rem; }
 .exp-item .org  { font-size: 0.9rem; color: var(--text); }
 .exp-item .date { font-size: 0.82rem; color: var(--muted); margin-top: 0.1rem; }
+
+.view-more-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.view-more-link:hover { border-bottom-color: var(--accent); }
 
 /* ===== Achievements ===== */
 .ach-list {
